@@ -1,0 +1,13 @@
+machine:
+  node:
+    version: 8.2.0
+
+dependencies:
+  override:
+    - npm install -g ember-cli
+    - yarn install
+
+test:
+  override:
+    - ember test
+
