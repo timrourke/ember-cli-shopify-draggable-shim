@@ -1,6 +1,8 @@
 # ember-cli-shopify-draggable-shim
 
-WORK IN PROGRESS An ember-cli shim for working with Shopify's drag-and-drop library [draggable](https://github.com/shopify/draggable)
+[![CircleCI](https://circleci.com/gh/timrourke/ember-cli-shopify-draggable-shim.svg?style=svg)](https://circleci.com/gh/timrourke/ember-cli-shopify-draggable-shim)
+
+An ember-cli shim for working with Shopify's drag-and-drop library [draggable](https://github.com/shopify/draggable)
 
 ## Installation
 
