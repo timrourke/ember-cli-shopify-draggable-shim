@@ -3,11 +3,8 @@ import ShopifyDraggable from '@shopify/draggable';
 
 const {
   BaseEvent,
-  Collidable,
   Draggable,
   Droppable,
-  ForceTouchSensor,
-  Snappable,
   Sortable,
   Swappable,
 } = ShopifyDraggable;
@@ -46,36 +43,6 @@ test('BaseEvent() instance of BaseEvent', function(assert) {
   const instance = new BaseEvent();
 
   assert.ok(instance instanceof BaseEvent);
-});
-
-test('Collidable class exports', function(assert) {
-  assert.equal(typeof Collidable, 'function');
-});
-
-test('Collidable() instance of Collidable', function(assert) {
-  const instance = new Collidable();
-
-  assert.ok(instance instanceof Collidable);
-});
-
-test('ForceTouchSensor class exports', function(assert) {
-  assert.equal(typeof ForceTouchSensor, 'function');
-});
-
-test('ForceTouchSensor() instance of ForceTouchSensor', function(assert) {
-  const instance = new ForceTouchSensor();
-
-  assert.ok(instance instanceof ForceTouchSensor);
-});
-
-test('Snappable class exports', function(assert) {
-  assert.equal(typeof Snappable, 'function');
-});
-
-test('Snappable() instance of Snappable', function(assert) {
-  const instance = new Snappable();
-
-  assert.ok(instance instanceof Snappable);
 });
 
 test('Sortable class exports', function(assert) {
