@@ -21,20 +21,20 @@ import ShopifyDraggable from '@shopify/draggable';
 const { Draggable } = ShopifyDraggable;
 
 export default Component.extend({
-	didRender() {
-		this._super(...arguments);
+  didRender() {
+    this._super(...arguments);
 
-		this.set('draggable', new Draggable(
-			this.$('ul').toArray(),
-			{ draggable: 'li' }
-		));
-	}
+    this.set('draggable', new Draggable(
+      this.$('ul').toArray(),
+        { draggable: 'li' }
+      ));
+    }
 });
 ```
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone https://github.com/timrourke/ember-cli-shopify-draggable-shim.git` this repository
 * `cd ember-cli-shopify-draggable-shim`
 * `yarn install`
 
