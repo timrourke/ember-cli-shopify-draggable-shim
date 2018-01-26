@@ -85,9 +85,9 @@
   dependencies:
     "@glimmer/util" "^0.25.4"
 
-"@shopify/draggable@1.0.0-beta.3":
-  version "1.0.0-beta.3"
-  resolved "https://registry.yarnpkg.com/@shopify/draggable/-/draggable-1.0.0-beta.3.tgz#b207effa1b85d31efbe1c3d8d40d785a2cb100c4"
+"@shopify/draggable@^1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@shopify/draggable/-/draggable-1.0.0-beta.4.tgz#c8982960c095477704de58f0a0806fa93fe6efa0"
 
 abbrev@1:
   version "1.1.1"
