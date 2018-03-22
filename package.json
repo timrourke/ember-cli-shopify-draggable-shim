@@ -26,7 +26,7 @@
     "test": "ember try:each"
   },
   "dependencies": {
-    "@shopify/draggable": "1.0.0-beta.3",
+    "@shopify/draggable": "1.0.0-beta.5",
     "broccoli-funnel": "^2.0.1",
     "broccoli-merge-trees": "^2.0.0",
     "ember-cli-babel": "^6.6.0"
